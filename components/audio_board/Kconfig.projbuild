@@ -33,7 +33,10 @@ config ESP32_C3_LYRA_V2_BOARD
     bool "ESP32-C3-Lyra-v2.0"
 config ESP32_C6_DEVKIT_BOARD
     bool "ESP32-C6-DEVKIT"
-
+config ESP_AI_THINKER_AUDIO_KIT_REV_A_BOARD
+    bool "ESP32-A1S Audio Kit (Rev. A)"
+config ESP_AI_THINKER_AUDIO_KIT_REV_B_BOARD
+    bool "ESP32-A1S Audio Kit (Rev. B)"
 endchoice
 
 choice ESP32_KORVO_DU1906_DAC
